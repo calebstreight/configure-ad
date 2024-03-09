@@ -17,11 +17,19 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Windows Server 2022
 - Windows 10 (21H2)
 
-<h2>High-Level Deployment and Configuration Steps</h2>
+<h2>Deployment and Configuration Steps</h2>
 
-- Step 1
+- First you want to create two Virtual Machines in Microsoft Azure, make sure one is using 'Windows 10' and the other one is using 'Windows Server'. The one using 'Windows Server' will be our 'Domain Controller'. Make sure both VM's use the SAME VNET. (Shown below)
+
+![image](https://github.com/calebstreight/configure-ad/assets/162412951/125b3b55-5d70-4637-97cd-64ddf79b0f96)
+
+
+- After you created your VM's make sure you change the 'Domain controller' VM's NIC to a static private IP. (Shown below)
+
+![image](https://github.com/calebstreight/configure-ad/assets/162412951/8e7e9727-216f-4845-8290-72c00a9d8a03)
+
 - Step 2
 - Step 3
 - Step 4
 
-<h2>Deployment and Configuration Steps</h2>
+
