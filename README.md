@@ -40,7 +40,13 @@ This tutorial outlines the implementation of on-premises Active Directory within
 ![image](https://github.com/calebstreight/configure-ad/assets/162412951/bdab2a20-08a6-49a9-a846-462dd264bc65)
 
 
-- Next Install 'Active Directory' on 'Domain controller' VM. Once logged into 'Domain controller' go to Server manager > Add new roles or features > 
+- Next Install 'Active Directory' on 'Domain controller' VM. Once logged into 'Domain controller' go to Server manager > Add new roles or features > Next > Next > Next > Check 'Active Directory Domain Services' > Add Features > Next > Next > Next > Install > Close, once finished installing. (Shown below)
+
+![image](https://github.com/calebstreight/configure-ad/assets/162412951/b7f903ca-7d9e-4bde-a8a8-aa4d18832307)
+![image](https://github.com/calebstreight/configure-ad/assets/162412951/7d796ca7-410a-4667-b6ff-d3f06c0ff97c)
+![image](https://github.com/calebstreight/configure-ad/assets/162412951/a4db6ff9-6ab6-4252-811c-a985671cbc7a)
+<img width="780" alt="Screenshot 2024-03-10 at 4 09 14 AM" src="https://github.com/calebstreight/configure-ad/assets/162412951/e4a842cc-e3d8-4f98-96ad-c35db68da64e">
+
 
 - Step 2
 - Step 3
