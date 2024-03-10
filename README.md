@@ -57,7 +57,19 @@ This tutorial outlines the implementation of on-premises Active Directory within
 ![image](https://github.com/calebstreight/configure-ad/assets/162412951/1b52747b-e789-44a7-910a-de38a2ebbb9b)
 
 
-- 
+- After you restart, log back into the 'Domain controller' and in the 'Server manager' click > tools > Active Directory Users and Computers and Active directory should be up and running. (Shown below)
+
+![image](https://github.com/calebstreight/configure-ad/assets/162412951/409399cc-903a-4000-959f-ffd3b5563c90)
+
+
+- Lastly we're going to connect our 'Client' VM to the 'Domain' we just created with the 'Domain controller'. In order to do that we have to change 'Client' VM's DNS to the 'Domain controllers' Private IP address inside of Microsoft Azure. Once in Microsoft Azure navigate to your 'Client' VM  then > Network Settings > Network Interface > DNS Servers > Click custom and then set it to the 'Domain controllers' Private IP adress > Save > Navigate back to the Client VM 'Home page' on Microsoft Azure and reset the VM. (Shown below)
+
+![image](https://github.com/calebstreight/configure-ad/assets/162412951/678363c7-9c36-42f6-b34f-b3abef90b489)
+![image](https://github.com/calebstreight/configure-ad/assets/162412951/b1073291-c355-4f37-bee4-55274453e7af)
+![image](https://github.com/calebstreight/configure-ad/assets/162412951/8f3c0f83-8e98-4e19-a7f7-e131e1678965)
+![image](https://github.com/calebstreight/configure-ad/assets/162412951/759a479d-0d1e-4a2a-98c9-ce0821ba322d)
+
+
 
 - Step 2
 - Step 3
