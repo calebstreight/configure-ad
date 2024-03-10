@@ -79,9 +79,12 @@ This tutorial outlines the implementation of on-premises Active Directory within
 ![image](https://github.com/calebstreight/configure-ad/assets/162412951/759a479d-0d1e-4a2a-98c9-ce0821ba322d)
 
 
-- Next log back into the 'Client' VM 
-- Step 2
-- Step 3
-- Step 4
+- Next log back into the 'Client' VM and right click Windows > System > Rename this PC (Advanced) > Change > type in your domain name > and login using the admin account we just created in the previous step. (Shown below)
+
+![image](https://github.com/calebstreight/configure-ad/assets/162412951/6c3255a5-0dcd-4d73-a77d-62405c53aa7f)
+![image](https://github.com/calebstreight/configure-ad/assets/162412951/279bdef6-9fac-486e-99fe-eb256a043e74)
+![image](https://github.com/calebstreight/configure-ad/assets/162412951/c274a944-1e9b-497a-a051-530d7b8970e6)
+![image](https://github.com/calebstreight/configure-ad/assets/162412951/7850762b-de5b-44f0-a7d9-4a632b06ef35)
+![image](https://github.com/calebstreight/configure-ad/assets/162412951/02653a52-67be-4871-9129-d27b49b8634c)
 
 
