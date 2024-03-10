@@ -48,6 +48,17 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img width="780" alt="Screenshot 2024-03-10 at 4 09 14 AM" src="https://github.com/calebstreight/configure-ad/assets/162412951/e4a842cc-e3d8-4f98-96ad-c35db68da64e">
 
 
+- Now that we have 'Active Directory' installed we will have to actually set this as the 'Domain controller'. Navigate to the flag with the exclamation point in the top right and click 'Promote this server to domain controller' > New Forest > Name the domain > Next > Create Password, Next > Next > Next > Next > Next > Install > Restart VM. (Shown below)
+
+![image](https://github.com/calebstreight/configure-ad/assets/162412951/3f199967-3a2d-461f-9d91-7716b9c534c3)
+![image](https://github.com/calebstreight/configure-ad/assets/162412951/73f4857a-b685-4b13-ad93-72e4e9cdf713)
+![image](https://github.com/calebstreight/configure-ad/assets/162412951/41df50c0-9932-49d9-9100-865ef814a576)
+![image](https://github.com/calebstreight/configure-ad/assets/162412951/d4d1f217-fb5c-4457-8f25-e49d0f7c4ea4)
+![image](https://github.com/calebstreight/configure-ad/assets/162412951/1b52747b-e789-44a7-910a-de38a2ebbb9b)
+
+
+- 
+
 - Step 2
 - Step 3
 - Step 4
