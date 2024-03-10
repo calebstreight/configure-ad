@@ -24,9 +24,23 @@ This tutorial outlines the implementation of on-premises Active Directory within
 ![image](https://github.com/calebstreight/configure-ad/assets/162412951/125b3b55-5d70-4637-97cd-64ddf79b0f96)
 
 
-- After you created your VM's make sure you change the 'Domain controller' VM's NIC to a static private IP. (Shown below)
+- After you created your VM's make sure you change the 'Domain controller' VM's NIC to a static private IP. Now you should have a 'Client' VM and a 'Domain Controller' VM (Shown below)
 
 ![image](https://github.com/calebstreight/configure-ad/assets/162412951/8e7e9727-216f-4845-8290-72c00a9d8a03)
+![image](https://github.com/calebstreight/configure-ad/assets/162412951/32b0d60f-e113-491f-95f5-b6541525cf28)
+
+
+- Next, we're going to insure connectivity between both VM's so we will RDP into the 'Domain controller' VM and enable IMCPv4 on the local windows firewall so that we may send a 'ping' to the 'Domain controller' to ensure a connection. Enable the two highlighted tabs. (Shown below)
+
+![image](https://github.com/calebstreight/configure-ad/assets/162412951/3c91e5ed-6db8-4d03-9ce8-faf0a3855370)
+
+
+- After you enable IMCPv4 on the 'Domain controllers' local windows firewall, login to the 'Client' VM and ping the domain controller to ensure connection. (Shown below)
+
+![image](https://github.com/calebstreight/configure-ad/assets/162412951/bdab2a20-08a6-49a9-a846-462dd264bc65)
+
+
+- Next Install 'Active Directory' on 'Domain controller' VM. Once logged into 'Domain controller' go to Server manager > Add new roles or features > 
 
 - Step 2
 - Step 3
