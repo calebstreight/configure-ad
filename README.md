@@ -62,6 +62,15 @@ This tutorial outlines the implementation of on-premises Active Directory within
 ![image](https://github.com/calebstreight/configure-ad/assets/162412951/409399cc-903a-4000-959f-ffd3b5563c90)
 
 
+- Inside of 'Active Directory Users and Computers' we are going to create an admin account in order to connect 'Client' VM to the 'Domain' later. So once inside 'Active Directory Users and Computers' right click 'mydomain.com' > New > Organizational Unit > Name It '_ADMINS'. Next highlight '_ADMINS' folder and right click > New > User, and fill it in and create password. (Shown below)
+
+![image](https://github.com/calebstreight/configure-ad/assets/162412951/924129c2-890d-413f-bbc9-36755a3ca6c5)
+![image](https://github.com/calebstreight/configure-ad/assets/162412951/5de3d57b-aae2-4c9c-a9a5-0beb8c17436a)
+![image](https://github.com/calebstreight/configure-ad/assets/162412951/2d4212d0-1c0b-4ee1-ba5a-5835ea833c9f)
+![image](https://github.com/calebstreight/configure-ad/assets/162412951/4dc639ee-3023-4b69-b3e1-97743973318a)
+
+
+
 - Lastly we're going to connect our 'Client' VM to the 'Domain' we just created with the 'Domain controller'. In order to do that we have to change 'Client' VM's DNS to the 'Domain controllers' Private IP address inside of Microsoft Azure. Once in Microsoft Azure navigate to your 'Client' VM  then > Network Settings > Network Interface > DNS Servers > Click custom and then set it to the 'Domain controllers' Private IP adress > Save > Navigate back to the Client VM 'Home page' on Microsoft Azure and reset the VM. (Shown below)
 
 ![image](https://github.com/calebstreight/configure-ad/assets/162412951/678363c7-9c36-42f6-b34f-b3abef90b489)
@@ -70,7 +79,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 ![image](https://github.com/calebstreight/configure-ad/assets/162412951/759a479d-0d1e-4a2a-98c9-ce0821ba322d)
 
 
-
+- Next log back into the 'Client' VM 
 - Step 2
 - Step 3
 - Step 4
